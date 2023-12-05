@@ -12,14 +12,12 @@ from funix import funix
         [{"markdown": "未来产业化过程（分年度目标及前景分析）"}],
         [{"argument": "future"}],
     ],
-    widgets={
-        ("industrialization", "conditions", "future"): ("textarea", {"rows": 7})
-    },
+    widgets={("industrialization", "conditions", "future"): ("textarea", {"rows": 7})},
     argument_labels={
         "industrialization": "目前产业化程度",
         "conditions": "已具备的产业化条件",
         "future": "未来产业化过程",
-    }
+    },
 )
 def project_industry(
     industrialization: str,

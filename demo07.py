@@ -48,7 +48,7 @@ from funix import funix
         "swot_t": "威胁",
         "marketing_strategy": "营销策略",
         "market_prediction": "市场预测",
-    }
+    },
 )
 def project_marketing(
     analysis: str,

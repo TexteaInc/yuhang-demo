@@ -36,7 +36,7 @@ from funix import funix
         "develop_technical": "项目实施的技术方案",
         "develop_keypoint": "项目的关键技术、创新点",
         "property_right": "知识产权情况",
-    }
+    },
 )
 def project_industry(
     service: str,

@@ -13,13 +13,16 @@ from funix import funix
         [{"argument": "project_fund_valuation"}],
     ],
     widgets={
-        ("project_total_investment", "project_fund_usage", "project_fund_valuation"): ("textarea", {"rows": 7})
+        ("project_total_investment", "project_fund_usage", "project_fund_valuation"): (
+            "textarea",
+            {"rows": 7},
+        )
     },
     argument_labels={
         "project_total_investment": "项目总投入",
         "project_fund_usage": "资金用途",
         "project_fund_valuation": "资金估值",
-    }
+    },
 )
 def project_fund_information(
     project_total_investment: str,
