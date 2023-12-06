@@ -2,7 +2,7 @@ from funix import funix
 
 
 @funix(
-    title="4. 申报项目投资简介",
+    title="04. 申报项目投资简介",
     input_layout=[
         [{"markdown": "## 申报项目投资简介"}],
         [{"markdown": "注册资金"}],
@@ -100,7 +100,7 @@ from funix import funix
         ("request_other_fee", "completed_other_fee"): "其他经费（万元）",
     },
 )
-def project_industry(
+def project_invest(
     registered_capital: int = 0,
     actual_capital: int = 0,
     request_equipment_purchase_fee: int = 0,

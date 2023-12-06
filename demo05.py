@@ -2,7 +2,7 @@ from funix import funix
 
 
 @funix(
-    title="5. 产品与研发",
+    title="05. 产品与研发",
     input_layout=[
         [{"markdown": "## 融资说明"}],
         [{"markdown": "### 产品服务介绍（产品的用途、功能、行业领域、市场定位及客户价值观）"}],
@@ -38,7 +38,7 @@ from funix import funix
         "property_right": "知识产权情况",
     },
 )
-def project_industry(
+def project_rna(
     service: str,
     feature: str,
     develop_content: str,

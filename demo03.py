@@ -4,7 +4,7 @@ from funix import funix
 
 
 @funix(
-    title="3. 企业注册情况",
+    title="03. 企业注册情况",
     input_layout=[
         [{"markdown": "**企业信息（如未注册请填写预注册信息）**"}],
         [{"argument": "business_name"}, {"argument": "legal_person_name"}],

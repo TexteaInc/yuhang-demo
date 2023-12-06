@@ -2,7 +2,7 @@ from funix import funix
 
 
 @funix(
-    title="9. 财务说明",
+    title="09. 财务说明",
     input_layout=[
         [{"markdown": "**未来三年营收预测表**"}],
         [

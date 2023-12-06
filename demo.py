@@ -5,7 +5,7 @@ from funix.hint import BytesFile
 
 
 @funix(
-    title="1. 项目基本情况",
+    title="01. 项目基本情况",
     input_layout=[
         [{"markdown": "### 基本信息"}],
         [{"argument": "project_attribute"}],

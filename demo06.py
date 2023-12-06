@@ -2,7 +2,7 @@ from funix import funix
 
 
 @funix(
-    title="6. 产品化程度",
+    title="06. 产品化程度",
     input_layout=[
         [{"markdown": "### 产品化程度"}],
         [{"markdown": "目前产业化程度（阶段性成果描述）"}],
@@ -19,7 +19,7 @@ from funix import funix
         "future": "未来产业化过程",
     },
 )
-def project_industry(
+def project_production(
     industrialization: str,
     conditions: str,
     future: str,

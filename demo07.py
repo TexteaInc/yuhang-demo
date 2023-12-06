@@ -2,7 +2,7 @@ from funix import funix
 
 
 @funix(
-    title="7. 市场营销",
+    title="07. 市场营销",
     input_layout=[
         [{"markdown": "## 融资说明"}],
         [{"markdown": "### 市场分析（行业历史与前景、现有市场规模及增长趋势）"}],
